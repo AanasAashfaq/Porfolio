@@ -72,7 +72,7 @@ const SideBar = forwardRef(({ showNav }, ref) => {
           <div
             className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors
              ${
-              router.pathname == "www.linkedin.com/in/anas-ashfaq-612322267"
+              router.pathname == "www.linkedin.com/in/anas-ashfaq-612322267&apos;"
                 ? "bg-[#31303a] text-orange-500"
                 : "text-gray-400 hover:bg-[#31303a] hover:text-[#0277b5]"
             }`
@@ -91,7 +91,7 @@ const SideBar = forwardRef(({ showNav }, ref) => {
           <div
             className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors
              ${
-              router.pathname == "https://github.com/AanasAashfaq"
+              router.pathname == "https://github.com/AanasAashfaq&apos;"
                 ? "bg-[#31303a] text-orange-500"
                 : "text-gray-400 hover:bg-[#31303a] hover:text-[#2a9d8f]"
             }`
