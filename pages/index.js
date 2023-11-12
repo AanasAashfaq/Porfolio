@@ -44,7 +44,7 @@ export default function Home() {
         </Link >
         <div className="rounded bg-white md:h-60  h-72 shadow-sm">
           <div className='md:h-[50%]  h-[60%] overflow-hidden'>
-            <img src='/images/image.webp' />
+            <Image src='/images/image.webp' />
           </div>
           <div className='md:h-[50%] h-[40%] flex flex-col  items-center justify-center '>
             <div className=' w-[90%] '>
